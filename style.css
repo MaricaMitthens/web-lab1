@@ -38,10 +38,12 @@ h1 {
 
 .block2 {
     height: 200px;
+    background-color: darkorange;
 }
 
 .block3 {
     height: 160px;
+    background-color: rgb(255, 233, 32);
 }
 
 .block4 {
@@ -49,6 +51,7 @@ h1 {
     float: left;
     width: 43%;
     height: 200px;
+    background-color: rgb(83, 255, 83);
 }
 
 .block5 {
@@ -57,11 +60,14 @@ h1 {
     float: right;
     width: 43%;
     height: 200px;
+    background-color: rgb(79, 255, 232);
 }
 
 .block6 {
     clear: both;
     height: 500px;
+    background-color: rgb(233, 63, 248);
+
 }
 
 @media (max-width: 1000px) {
