@@ -2,9 +2,114 @@ body {
     box-sizing: border-box
 }
 
+h1 {
+    margin: 0px auto;
+    width: max-content;
+}
+
 .block {
     border: 1px black solid;
-    background-color: brown;
-    margin: 10px 0px;
-    padding: 10px
+    background-color: rgb(236, 120, 120);
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    margin: 0px auto;
+    width: 1000px;
+
+}
+
+.menu-wrapper {
+    float: left;
+    width: 30%;
+}
+
+.content-wrapper {
+    float: left; 
+    width: 70%;
+    height: 700px;
+}
+
+.block1 {
+    height: 300px;
+}
+
+
+.block2 {
+    height: 200px;
+}
+
+.block3 {
+    height: 160px;
+}
+
+.block4 {
+    margin-top: 0px;
+    float: left;
+    width: 43%;
+    height: 200px;
+}
+
+.block5 {
+    margin-top: 0px;
+    margin-left: 0px;
+    float: right;
+    width: 43%;
+    height: 200px;
+}
+
+.block6 {
+    clear: both;
+    height: 500px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90vw;
+    }
+    .block4 {
+        width: 40%;
+    }
+    .block5 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 95vw;
+    }
+    .block4 {
+        float: none;
+        width: auto;        
+    }
+    .block5 {
+        /* margin-left: 10px; */
+        margin: 10px;
+        float: none;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        float: left;
+        width: 100%;
+    }
+    .block {
+        margin: 10px 10px;
+    }
+    .menu-wrapper {
+        width: 100%;
+    }
+    .content-wrapper {
+        width: 100%;
+    }
+    .block2 {
+        display: none;
+    }
+    .block4{
+        height: width;
+    }
 }
